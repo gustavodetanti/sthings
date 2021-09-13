@@ -1,0 +1,72 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+.img-look {
+  border-radius: 32px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.fullimage img {
+  width: 100%;
+  opacity: 0.7;
+}
+section {
+  display: none;
+  margin: 60px;
+  background-color: #222222;
+  padding: 56px;
+  border-radius: 32px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+}
+section div p > img {
+  margin: 0 24px 24px 0px;
+  float: left;
+  max-width: 30%;
+}
+.chardiv {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  background-color: black;
+  border-radius: 32px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  margin: 24px 0;
+}
+.nav {
+  display: none;
+  border-radius: 32px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0px #00000022, 2px 5px 16px 1px rgba(0, 0, 0, 0);
+  background-color: black;
+  margin: 24px 0;
+}
+.nav a {
+  color: red;
+  font-size: 18px;
+  display: inline-block;
+  padding: 16px;
+  margin: 2px 2px;
+  background-color: #222222;
+}
